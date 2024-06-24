@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(16, 15, 35);
+  color: white;
+}
+
+.inline {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+/* Header */
+header {
+  height: 13vh;
+}
+header h1 {
+  text-align: center;
+}
+
+/* main */
+main {
+  width: 60vw;
+  margin-left: 5%;
+}
+
+/* chart */
+.chartCard {
+  width: 60vw;
+  background-color: rgb(23, 22, 51);
+  margin-bottom: 3%;
+}
+
+.chartTime {
+  margin-left: 25%;
+}
+
+.time {
+  border-radius: 10%;
+  background-color: rgb(37, 35, 98);
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+.chartBox {
+  width: 90%;
+  border-bottom: dotted;
+}
+
+/* details */
+.detailsHeader span {
+  font-size: x-large;
+  font-weight: bold;
+  margin-right: 2%;
+}
+.details p {
+  font-size: small;
+}
+.percent {
+  color: rgb(10, 228, 43);
+}
+
+.percentLow {
+  color: rgb(245, 5, 5);
+}
+
+/* aside */
+.list {
+  margin: 5%;
+  width: 20vw;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.list li {
+  list-style-type: none;
+  margin: 5%;
+}
+
+.list button {
+  background-color: rgb(37, 35, 98);
+  color: white;
+  cursor: pointer;
+  padding: 4%;
+  border-radius: 10%;
+}
+
+.list span {
+  margin-left: 7%;
+}
+
+.list button:hover {
+  background-color: black;
+}

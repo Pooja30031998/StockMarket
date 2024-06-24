@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stock Market Analysis</h1>
+    </header>
+    <main class="inline">
+      <!-- chart section -->
+      <div class="chartCard">
+        <div class="chartBox">
+          <canvas id="myChart"></canvas>
+        </div>
+        <div class="chartTime">
+          <button class="time">1 Month</button>
+          <button class="time">3 Months</button>
+          <button class="time">1 Year</button>
+          <button class="time">5 Years</button>
+        </div>
+      </div>
+
+      <!-- details section -->
+      <div class="details">
+        <div class="detailsHeader"></div>
+        <p></p>
+      </div>
+    </main>
+
+    <!-- list section -->
+    <aside class="list inline">
+      <ul></ul>
+    </aside>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
